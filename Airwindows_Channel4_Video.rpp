@@ -1,0 +1,2016 @@
+<REAPER_PROJECT 0.1 "5.978+dev0530/x64" 1559495007
+  RIPPLE 0
+  GROUPOVERRIDE 0 0 0
+  AUTOXFADE 1
+  ENVATTACH 1
+  POOLEDENVATTACH 0
+  MIXERUIFLAGS 11 177
+  PEAKGAIN 1.1
+  FEEDBACK 0
+  PANLAW 2
+  PROJOFFS 0 0 0
+  MAXPROJLEN 0 600
+  GRID 3185 8 4 8 1 0 0 0
+  TIMEMODE 8 1 -1 10 0
+  VIDEO_CONFIG 1080 720 256
+  PANMODE 3
+  CURSOR 13.91503401360541
+  ZOOM 99.99999997200017 2136 0
+  VZOOMEX 0
+  USE_REC_CFG 0
+  RECMODE 1
+  SMPTESYNC 0 10 100 40 1000 300 0 0 1 0 0
+  LOOP 0
+  LOOPGRAN 0 4
+  RECORD_PATH "Media" ""
+  <RECORD_CFG
+    ZXZhdxgBAA==
+  >
+  <APPLYFX_CFG
+  >
+  RENDER_FILE ""
+  RENDER_PATTERN $project_$region
+  RENDER_FMT 0 2 44100
+  RENDER_1X 0
+  RENDER_RANGE 5 0 0 30 1000
+  RENDER_RESAMPLE 3 0 1
+  RENDER_ADDTOPROJ 0
+  RENDER_STEMS 8
+  RENDER_DITHER 0
+  TIMELOCKMODE 1
+  TEMPOENVLOCKMODE 1
+  ITEMMIX 1
+  DEFPITCHMODE 589824 0
+  TAKELANE 1
+  SAMPLERATE 44100 1 0
+  <RENDER_CFG
+    UE1GRgUAAAAAAAAAAAgAAAEAAAAAAQAAAAUAANACAAAAACBBAQAAAF8AAAA=
+  >
+  LOCK 1
+  <METRONOME 6 2
+    VOL 0.25 0.125
+    FREQ 800 1600 1
+    BEATLEN 4
+    SAMPLES "" ""
+    PATTERN 2863311530 2863311529
+  >
+  GLOBAL_AUTO -1
+  TEMPO 120 4 4
+  PLAYRATE 1 0 0.25 4
+  SELECTION 13.91503401360541 27.83006802721086
+  SELECTION2 13.91503401360541 27.83006802721086
+  MASTERAUTOMODE 0
+  MASTERTRACKHEIGHT 0 0
+  MASTERPEAKCOL 16576
+  MASTERMUTESOLO 0
+  MASTERTRACKVIEW 0 0.6667 0.210084 0.274021 0 0 0 0 0 0
+  MASTERHWOUT 0 0 1 0 0 0 0 -1
+  MASTER_NCH 2 2
+  MASTER_VOLUME 1 0 -1 -1 1
+  MASTER_PANMODE 3
+  MASTER_FX 1
+  MASTER_SEL 0
+  <MASTERPLAYSPEEDENV
+    ACT 0 -1
+    VIS 0 1 1
+    LANEHEIGHT 0 0
+    ARM 0
+    DEFSHAPE 0 -1 -1
+  >
+  <TEMPOENVEX
+    ACT 0 -1
+    VIS 1 0 1
+    LANEHEIGHT 0 0
+    ARM 0
+    DEFSHAPE 1 -1 -1
+  >
+  MARKER 1 0 ADr 13 0 1 R
+  MARKER 1 139.15034013609485 "" 13 0 1 R
+  MARKER 2 139.15034013609485 EDr_808 13 0 1 R
+  MARKER 2 286.2984126984698 "" 13 0 1 R
+  MARKER 3 286.29841269843746 EGtr_Clean 13 0 1 R
+  MARKER 3 426.29841269843746 "" 13 0 1 R
+  <PROJBAY
+  >
+  <TRACK {B3FDEA59-FD7E-45FC-9F87-A522BA5E9C39}
+    NAME Photos
+    PEAKCOL 16576
+    BEAT -1
+    AUTOMODE 0
+    VOLPAN 1 0 -1 -1 1
+    MUTESOLO 0 0 0
+    IPHASE 0
+    ISBUS 1 1
+    BUSCOMP 0 0 0 0 0
+    SHOWINMIX 1 0.6667 0.5 1 0.5 0 0 0
+    FREEMODE 0
+    SEL 0
+    REC 0 5088 1 7 0 0 0
+    VU 2
+    TRACKHEIGHT 0 0 0
+    INQ 0 0 0 0.5 100 0 0 100
+    NCHAN 2
+    FX 1
+    TRACKID {B3FDEA59-FD7E-45FC-9F87-A522BA5E9C39}
+    PERF 0
+    MIDIOUT -1
+    MAINSEND 1 0
+    <FXCHAIN
+      WNDRECT 89 52 655 408
+      SHOW 0
+      LASTSEL 0
+      DOCKED 0
+    >
+  >
+  <TRACK {B690BE52-3BCD-49FA-9404-E63E538366E4}
+    NAME Settings
+    PEAKCOL 16576
+    BEAT -1
+    AUTOMODE 0
+    VOLPAN 1 0 -1 -1 1
+    MUTESOLO 0 0 0
+    IPHASE 0
+    ISBUS 0 0
+    BUSCOMP 0 0 0 0 0
+    SHOWINMIX 1 0.6667 0.5 1 0.5 0 0 0
+    FREEMODE 0
+    SEL 0
+    REC 0 5088 1 7 0 0 0
+    VU 2
+    TRACKHEIGHT 0 0 0
+    INQ 0 0 0 0.5 100 0 0 100
+    NCHAN 2
+    FX 0
+    TRACKID {B690BE52-3BCD-49FA-9404-E63E538366E4}
+    PERF 0
+    MIDIOUT -1
+    MAINSEND 1 0
+    <FXCHAIN
+      WNDRECT 334 226 865 566
+      SHOW 0
+      LASTSEL 0
+      DOCKED 0
+      BYPASS 0 0 0
+      <VIDEO_EFFECT "Video processor" ""
+        <CODE
+          |//Image overlay
+          |//@param1:opacity 'opacity' 1
+          |//@param2:zoom 'zoom' 0 -15 15 0
+          |//@param3:xoffs 'X offset' 0 -1 1 0
+          |//@param4:yoffs 'Y offset' 0 -1 1 0
+          |//@param6:filter 'filter' 0 0 1 0.5 1
+          |//@param7:use_srca 'alpha channel' 1 0 1 0.5 1
+          |
+          |img1=input_track(0);
+          |img2=0;
+          |use_srca && img2 != img1 ? colorspace='RGBA';
+          |input_info(img1,img1w,img1h) && project_wh_valid===0 ?  ( project_w = img1w; project_h = img1h; );
+          |
+          |a = opacity < 0.01 ? 0 : opacity > 0.99 ? 1 : opacity;
+          |
+          |img2 != img1 && input_info(img2,sw,sh) ? (
+          |  gfx_blit(img1,0);
+          |  a>0?(
+          |    gfx_a=a;
+          |    gfx_mode = (filter>0.5 ? 256 : 0)|(use_srca?0x10000:0);
+          |    z = 10^(zoom/10);
+          |    dw = (sw*z)|0;
+          |    dh = (sh*z)|0;
+          |    x = (project_w - dw + (project_w + dw)*xoffs)*.5;
+          |    y = (project_h - dh + (project_h + dh)*yoffs)*.5;
+          |    gfx_blit(img2,0, x|0,y|0,dw,dh);
+          |  );
+          |);
+        >
+        CODEPARM 1.0000000000 0.0000000000 0.0000000000 0.0000000000 0.0000000000 0.0000000000 1.0000000000 0.0000000000 1.0000000000 1.0000000000 1.0000000000 0.0000000000 0.0000000000 0.0000000000 0.0000000000 0.0000000000 0.0000000000 0.0000000000 0.0000000000 0.0000000000 0.0000000000 0.0000000000 0.0000000000 0.0000000000
+      >
+      FLOATPOS 0 0 0 0
+      FXID {2698CB03-234B-4826-9B04-02B57D1E1E41}
+      WAK 0 0
+    >
+    <ITEM
+      POSITION 0
+      SNAPOFFS 0
+      LENGTH 13.91503401360541
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0 0 1 0 0
+      FADEOUT 1 0 0 1 0 0
+      MUTE 0
+      SEL 0
+      YPOS 0 0.166667
+      IGUID {CB8586DE-35BA-4E03-AE0A-0FA5C755FFF9}
+      IID 4
+      NAME AW_Channel4_Settings_-_Bypass.png
+      VOLPAN 1 0 1 -1
+      SOFFS 0
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {E2F2C04E-6790-4C3B-A79F-57CB73805F22}
+      <SOURCE VIDEO
+        FILE "Graphics\Airwindows_Channel4\AW_Channel4_Settings_-_Bypass.png"
+      >
+    >
+    <ITEM
+      POSITION 13.91503401360544
+      SNAPOFFS 0
+      LENGTH 13.91503401360542
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0 0 1 0 0
+      FADEOUT 1 0 0 1 0 0
+      MUTE 0
+      SEL 0
+      YPOS 0.166667 0.166667
+      IGUID {E93434CA-5E19-4FE7-97C7-557C19E1A3C9}
+      IID 7
+      NAME AW_Channel4_Settings_-_Neve_Off.png
+      VOLPAN 1 0 1 -1
+      SOFFS 0
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {3FA16C5B-8D5A-44F5-A83A-45575E60E91E}
+      <SOURCE VIDEO
+        FILE "Graphics\Airwindows_Channel4\AW_Channel4_Settings_-_Neve_Off.png"
+      >
+    >
+    <ITEM
+      POSITION 27.83006802721087
+      SNAPOFFS 0
+      LENGTH 13.91503401360541
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0 0 1 0 0
+      FADEOUT 1 0 0 1 0 0
+      MUTE 0
+      SEL 0
+      YPOS 0.5 0.166667
+      IGUID {DEDDFEE0-2B5E-4A53-A2D9-C63444A49626}
+      IID 5
+      NAME AW_Channel4_Settings_-_Neve_50%.png
+      VOLPAN 1 0 1 -1
+      SOFFS 0
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {87D6E6A7-492A-4848-882C-5177000622C2}
+      <SOURCE VIDEO
+        FILE "Graphics\Airwindows_Channel4\AW_Channel4_Settings_-_Neve_50%.png"
+      >
+    >
+    <ITEM
+      POSITION 41.74510204081631
+      SNAPOFFS 0
+      LENGTH 13.91503401360543
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0 0 1 0 0
+      FADEOUT 1 0 0 1 0 0
+      MUTE 0
+      SEL 0
+      YPOS 0.666667 0.166667
+      IGUID {BE239C95-7B9B-45F5-845F-E635CD8BDE79}
+      IID 6
+      NAME AW_Channel4_Settings_-_Neve_100%.png
+      VOLPAN 1 0 1 -1
+      SOFFS 0
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {11F72CC6-9CBB-4B53-9826-BD6AB50B7C9C}
+      <SOURCE VIDEO
+        FILE "Graphics\Airwindows_Channel4\AW_Channel4_Settings_-_Neve_100%.png"
+      >
+    >
+    <ITEM
+      POSITION 55.66013605442177
+      SNAPOFFS 0
+      LENGTH 13.91503401360544
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0 0 1 0 0
+      FADEOUT 1 0 0 1 0 0
+      MUTE 0
+      SEL 0
+      YPOS 0.333333 0.166667
+      IGUID {E9D20FBC-85C2-4984-A2EC-BF42D9CD1ECA}
+      IID 3
+      NAME AW_Channel4_Settings_-_API_Off.png
+      VOLPAN 1 0 1 -1
+      SOFFS 0
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {172A5C36-0FFE-4AAF-A39C-BC2BD28D9135}
+      <SOURCE VIDEO
+        FILE "Graphics\Airwindows_Channel4\AW_Channel4_Settings_-_API_Off.png"
+      >
+    >
+    <ITEM
+      POSITION 69.57517006802723
+      SNAPOFFS 0
+      LENGTH 13.91503401360539
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0 0 1 0 0
+      FADEOUT 1 0 0 1 0 0
+      MUTE 0
+      SEL 0
+      YPOS 0 0.166667
+      IGUID {8083F628-04A5-40DF-A12C-9AFEFCEC8755}
+      IID 1
+      NAME AW_Channel4_Settings_-_API_50.png
+      VOLPAN 1 0 1 -1
+      SOFFS 0
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {6A6898AE-87A6-4FAE-AC4B-86351AD3B9A0}
+      <SOURCE VIDEO
+        FILE "Graphics\Airwindows_Channel4\AW_Channel4_Settings_-_API_50.png"
+      >
+    >
+    <ITEM
+      POSITION 83.49020408163264
+      SNAPOFFS 0
+      LENGTH 13.91503401360539
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0 0 1 0 0
+      FADEOUT 1 0 0 1 0 0
+      MUTE 0
+      SEL 0
+      YPOS 0.166667 0.166667
+      IGUID {62570802-7653-4A6A-AB4D-394C12372F42}
+      IID 2
+      NAME AW_Channel4_Settings_-_API_100.png
+      VOLPAN 1 0 1 -1
+      SOFFS 0
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {5796A8D9-D00C-42B1-A09C-5E7C7928D273}
+      <SOURCE VIDEO
+        FILE "Graphics\Airwindows_Channel4\AW_Channel4_Settings_-_API_100.png"
+      >
+    >
+    <ITEM
+      POSITION 97.40523809520013
+      SNAPOFFS 0
+      LENGTH 13.91503401360539
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0 0 1 0 0
+      FADEOUT 1 0 0 1 0 0
+      MUTE 0
+      SEL 0
+      YPOS 0.833333 0.166667
+      IGUID {10E73492-63D7-4050-B436-B578CD9F6933}
+      IID 10
+      NAME AW_Channel4_Settings_-_SSL_Off.png
+      VOLPAN 1 0 1 -1
+      SOFFS 0
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {83398000-815D-426C-9670-C97CDCB690CE}
+      <SOURCE VIDEO
+        FILE "Graphics\Airwindows_Channel4\AW_Channel4_Settings_-_SSL_Off.png"
+      >
+    >
+    <ITEM
+      POSITION 111.32027210880557
+      SNAPOFFS 0
+      LENGTH 13.91503401360541
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0 0 1 0 0
+      FADEOUT 1 0 0 1 0 0
+      MUTE 0
+      SEL 0
+      YPOS 0.5 0.166667
+      IGUID {0C838FC0-2943-47B3-BED2-34B377D642FF}
+      IID 8
+      NAME AW_Channel4_Settings_-_SSL_50.png
+      VOLPAN 1 0 1 -1
+      SOFFS 0
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {0A0F37A8-C3E4-4E06-89E2-0A29ECCE4505}
+      <SOURCE VIDEO
+        FILE "Graphics\Airwindows_Channel4\AW_Channel4_Settings_-_SSL_50.png"
+      >
+    >
+    <ITEM
+      POSITION 125.23530612248948
+      SNAPOFFS 0
+      LENGTH 13.91503401360538
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0 0 1 0 0
+      FADEOUT 1 0 0 1 0 0
+      MUTE 0
+      SEL 0
+      YPOS 0.333333 0.166667
+      IGUID {BB291B57-EA93-4793-8106-B111F74CB7C5}
+      IID 9
+      NAME AW_Channel4_Settings_-_SSL_100.png
+      VOLPAN 1 0 1 -1
+      SOFFS 0
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {E2C2B105-CB84-44AB-8192-13403A8F80AD}
+      <SOURCE VIDEO
+        FILE "Graphics\Airwindows_Channel4\AW_Channel4_Settings_-_SSL_100.png"
+      >
+    >
+    <ITEM
+      POSITION 139.15034013609485
+      SNAPOFFS 0
+      LENGTH 14.71480725624113
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0 0 1 0 0
+      FADEOUT 1.1 0 0 1 0 0
+      MUTE 0
+      SEL 0
+      YPOS 0 0.166667
+      IGUID {568BD8F1-EBC8-4ED5-BE8C-1369D95B84B3}
+      IID 34
+      NAME AW_Channel4_Settings_-_Bypass.png
+      VOLPAN 1 0 1 -1
+      SOFFS 0
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {856DA909-BD53-40D7-B13B-C3326C24C7F3}
+      <SOURCE VIDEO
+        FILE "Graphics\Airwindows_Channel4\AW_Channel4_Settings_-_Bypass.png"
+      >
+    >
+    <ITEM
+      POSITION 153.86514739233598
+      SNAPOFFS 0
+      LENGTH 14.71480725624113
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1.1 0 0 1 0 0
+      FADEOUT 1.1 0 0 1 0 0
+      MUTE 0
+      SEL 0
+      YPOS 0.166667 0.166667
+      IGUID {F65124E1-361D-4770-917E-F4E3C8DF005E}
+      IID 35
+      NAME AW_Channel4_Settings_-_Neve_Off.png
+      VOLPAN 1 0 1 -1
+      SOFFS 0
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {D9476406-337D-4DD4-8571-8D1D801B5B94}
+      <SOURCE VIDEO
+        FILE "Graphics\Airwindows_Channel4\AW_Channel4_Settings_-_Neve_Off.png"
+      >
+    >
+    <ITEM
+      POSITION 168.57995464857711
+      SNAPOFFS 0
+      LENGTH 14.71480725624102
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0 0 1 0 0
+      FADEOUT 1.1 0 0 1 0 0
+      MUTE 0
+      SEL 0
+      YPOS 0.5 0.166667
+      IGUID {2C5E4B1F-2051-4D1E-900C-77F5EE255E95}
+      IID 36
+      NAME AW_Channel4_Settings_-_Neve_50%.png
+      VOLPAN 1 0 1 -1
+      SOFFS 0
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {F1E9C732-BBA8-4642-BB4C-3175CAAE48BF}
+      <SOURCE VIDEO
+        FILE "Graphics\Airwindows_Channel4\AW_Channel4_Settings_-_Neve_50%.png"
+      >
+    >
+    <ITEM
+      POSITION 183.29476190481813
+      SNAPOFFS 0
+      LENGTH 14.71480725624122
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0 0 1 0 0
+      FADEOUT 1 0 0 1 0 0
+      MUTE 0
+      SEL 0
+      YPOS 0.666667 0.166667
+      IGUID {6042FD8E-C616-4FA4-A990-39F218E8BA0C}
+      IID 37
+      NAME AW_Channel4_Settings_-_Neve_100%.png
+      VOLPAN 1 0 1 -1
+      SOFFS 0
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {EEEF7124-98DC-4B2A-9C54-605C16E8D4F1}
+      <SOURCE VIDEO
+        FILE "Graphics\Airwindows_Channel4\AW_Channel4_Settings_-_Neve_100%.png"
+      >
+    >
+    <ITEM
+      POSITION 198.00956916105935
+      SNAPOFFS 0
+      LENGTH 14.71480725624104
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0 0 1 0 0
+      FADEOUT 1.1 0 0 1 0 0
+      MUTE 0
+      SEL 0
+      YPOS 0.333333 0.166667
+      IGUID {ED6405F1-AA59-4DB6-89B5-69A3A5E20488}
+      IID 38
+      NAME AW_Channel4_Settings_-_API_Off.png
+      VOLPAN 1 0 1 -1
+      SOFFS 0
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {337704AA-441C-4C8A-B2D4-AF29E44B3AF2}
+      <SOURCE VIDEO
+        FILE "Graphics\Airwindows_Channel4\AW_Channel4_Settings_-_API_Off.png"
+      >
+    >
+    <ITEM
+      POSITION 212.72437641730039
+      SNAPOFFS 0
+      LENGTH 14.7148072562409
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0 0 1 0 0
+      FADEOUT 1 0 0 1 0 0
+      MUTE 0
+      SEL 0
+      YPOS 0 0.166667
+      IGUID {FC16D607-7A93-4FF9-A9E5-9EBD9EBEEE48}
+      IID 39
+      NAME AW_Channel4_Settings_-_API_50.png
+      VOLPAN 1 0 1 -1
+      SOFFS 0
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {C321E917-ABDB-4052-9208-1B058B500752}
+      <SOURCE VIDEO
+        FILE "Graphics\Airwindows_Channel4\AW_Channel4_Settings_-_API_50.png"
+      >
+    >
+    <ITEM
+      POSITION 227.43918367354129
+      SNAPOFFS 0
+      LENGTH 14.71480725624102
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0 0 1 0 0
+      FADEOUT 1 0 0 1 0 0
+      MUTE 0
+      SEL 0
+      YPOS 0.166667 0.166667
+      IGUID {F38A610A-F3CB-4AB6-A2D0-34B4E174D34D}
+      IID 40
+      NAME AW_Channel4_Settings_-_API_100.png
+      VOLPAN 1 0 1 -1
+      SOFFS 0
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {359A6A90-D6F3-4D9E-A982-D3ABE6347141}
+      <SOURCE VIDEO
+        FILE "Graphics\Airwindows_Channel4\AW_Channel4_Settings_-_API_100.png"
+      >
+    >
+    <ITEM
+      POSITION 242.15399092978231
+      SNAPOFFS 0
+      LENGTH 14.71480725624102
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0 0 1 0 0
+      FADEOUT 1 0 0 1 0 0
+      MUTE 0
+      SEL 0
+      YPOS 0.833333 0.166667
+      IGUID {40BBE070-9DF6-40D5-AE8A-9B1AC848FEFB}
+      IID 41
+      NAME AW_Channel4_Settings_-_SSL_Off.png
+      VOLPAN 1 0 1 -1
+      SOFFS 0
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {C64D36C6-73D5-4412-BE47-7FCDFC4A8932}
+      <SOURCE VIDEO
+        FILE "Graphics\Airwindows_Channel4\AW_Channel4_Settings_-_SSL_Off.png"
+      >
+    >
+    <ITEM
+      POSITION 256.86879818602335
+      SNAPOFFS 0
+      LENGTH 14.71480725624102
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0 0 1 0 0
+      FADEOUT 1 0 0 1 0 0
+      MUTE 0
+      SEL 0
+      YPOS 0.5 0.166667
+      IGUID {E10FB027-A42F-4B19-BDFE-4CD3961A0849}
+      IID 42
+      NAME AW_Channel4_Settings_-_SSL_50.png
+      VOLPAN 1 0 1 -1
+      SOFFS 0
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {1F5080C4-9D2D-4D72-9E41-D1361E0C20B8}
+      <SOURCE VIDEO
+        FILE "Graphics\Airwindows_Channel4\AW_Channel4_Settings_-_SSL_50.png"
+      >
+    >
+    <ITEM
+      POSITION 271.5836054422644
+      SNAPOFFS 0
+      LENGTH 14.71480725624102
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0 0 1 0 0
+      FADEOUT 1 0 0 1 0 0
+      MUTE 0
+      SEL 0
+      YPOS 0.333333 0.166667
+      IGUID {F39D6969-3237-4C07-852F-731286960AD4}
+      IID 43
+      NAME AW_Channel4_Settings_-_SSL_100.png
+      VOLPAN 1 0 1 -1
+      SOFFS 0
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {2F4DA377-E582-49DA-B960-956F05BB8EBE}
+      <SOURCE VIDEO
+        FILE "Graphics\Airwindows_Channel4\AW_Channel4_Settings_-_SSL_100.png"
+      >
+    >
+    <ITEM
+      POSITION 286.29841269850544
+      SNAPOFFS 0
+      LENGTH 14.00000000003564
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0 0 1 0 0
+      FADEOUT 1.1 0 0 1 0 0
+      MUTE 0
+      SEL 0
+      YPOS 0 0.166667
+      IGUID {C115632D-EDB8-4D8C-A739-293630E26F37}
+      IID 54
+      NAME AW_Channel4_Settings_-_Bypass.png
+      VOLPAN 1 0 1 -1
+      SOFFS 0
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {4F05813A-BBA3-47CC-B36A-A802CEFAAF87}
+      <SOURCE VIDEO
+        FILE "Graphics\Airwindows_Channel4\AW_Channel4_Settings_-_Bypass.png"
+      >
+    >
+    <ITEM
+      POSITION 300.29841269854109
+      SNAPOFFS 0
+      LENGTH 14.00000000003547
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1.1 0 0 1 0 0
+      FADEOUT 1.1 0 0 1 0 0
+      MUTE 0
+      SEL 0
+      YPOS 0.166667 0.166667
+      IGUID {99A0E8BD-E16D-4AD2-A53A-B57C7AD2425B}
+      IID 55
+      NAME AW_Channel4_Settings_-_Neve_Off.png
+      VOLPAN 1 0 1 -1
+      SOFFS 0
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {9C2841C8-2919-4C02-B10D-0736C7A9D63E}
+      <SOURCE VIDEO
+        FILE "Graphics\Airwindows_Channel4\AW_Channel4_Settings_-_Neve_Off.png"
+      >
+    >
+    <ITEM
+      POSITION 314.29841269857656
+      SNAPOFFS 0
+      LENGTH 14.00000000003547
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1.1 0 0 1 0 0
+      FADEOUT 1.1 0 0 1 0 0
+      MUTE 0
+      SEL 0
+      YPOS 0.5 0.166667
+      IGUID {2787527F-CD9E-47F9-9E46-9750D2578643}
+      IID 56
+      NAME AW_Channel4_Settings_-_Neve_50%.png
+      VOLPAN 1 0 1 -1
+      SOFFS 0
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {495D2CC3-8172-43CA-A3EE-8BDB72AA4589}
+      <SOURCE VIDEO
+        FILE "Graphics\Airwindows_Channel4\AW_Channel4_Settings_-_Neve_50%.png"
+      >
+    >
+    <ITEM
+      POSITION 328.29841269861203
+      SNAPOFFS 0
+      LENGTH 14.00000000003564
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1.1 0 0 1 0 0
+      FADEOUT 1.1 0 0 1 0 0
+      MUTE 0
+      SEL 0
+      YPOS 0.666667 0.166667
+      IGUID {26114323-2EB1-41B6-8E95-E312F1B08E74}
+      IID 57
+      NAME AW_Channel4_Settings_-_Neve_100%.png
+      VOLPAN 1 0 1 -1
+      SOFFS 0
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {BCD066A6-C210-4066-BB1C-6A92AA0DDE56}
+      <SOURCE VIDEO
+        FILE "Graphics\Airwindows_Channel4\AW_Channel4_Settings_-_Neve_100%.png"
+      >
+    >
+    <ITEM
+      POSITION 342.29841269864767
+      SNAPOFFS 0
+      LENGTH 14.00000000003547
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1.1 0 0 1 0 0
+      FADEOUT 1.1 0 0 1 0 0
+      MUTE 0
+      SEL 0
+      YPOS 0.333333 0.166667
+      IGUID {F044E61D-C1A7-4831-A7AA-89CD405D034B}
+      IID 58
+      NAME AW_Channel4_Settings_-_API_Off.png
+      VOLPAN 1 0 1 -1
+      SOFFS 0
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {307749AD-4F07-49BE-BBB9-F6D1EDD90569}
+      <SOURCE VIDEO
+        FILE "Graphics\Airwindows_Channel4\AW_Channel4_Settings_-_API_Off.png"
+      >
+    >
+    <ITEM
+      POSITION 356.29841269868314
+      SNAPOFFS 0
+      LENGTH 14.00000000003547
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1.1 0 0 1 0 0
+      FADEOUT 1.1 0 0 1 0 0
+      MUTE 0
+      SEL 0
+      YPOS 0 0.166667
+      IGUID {6D590218-FAA9-4B50-9E3D-33D1D19B615F}
+      IID 59
+      NAME AW_Channel4_Settings_-_API_50.png
+      VOLPAN 1 0 1 -1
+      SOFFS 0
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {68DE140A-FDC0-437F-B49A-1289C321A5CE}
+      <SOURCE VIDEO
+        FILE "Graphics\Airwindows_Channel4\AW_Channel4_Settings_-_API_50.png"
+      >
+    >
+    <ITEM
+      POSITION 370.29841269871861
+      SNAPOFFS 0
+      LENGTH 14.00000000003547
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1.1 0 0 1 0 0
+      FADEOUT 1.1 0 0 1 0 0
+      MUTE 0
+      SEL 0
+      YPOS 0.166667 0.166667
+      IGUID {67D34CEA-7A86-4834-90FC-C3E48785B1F0}
+      IID 60
+      NAME AW_Channel4_Settings_-_API_100.png
+      VOLPAN 1 0 1 -1
+      SOFFS 0
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {6602512F-7C21-4C4A-9813-05FB1556E3B9}
+      <SOURCE VIDEO
+        FILE "Graphics\Airwindows_Channel4\AW_Channel4_Settings_-_API_100.png"
+      >
+    >
+    <ITEM
+      POSITION 384.29841269875408
+      SNAPOFFS 0
+      LENGTH 14.00000000003547
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1.1 0 0 1 0 0
+      FADEOUT 1.1 0 0 1 0 0
+      MUTE 0
+      SEL 0
+      YPOS 0.833333 0.166667
+      IGUID {56BD81A4-742D-4116-B2D9-EC5EAA9FD08A}
+      IID 61
+      NAME AW_Channel4_Settings_-_SSL_Off.png
+      VOLPAN 1 0 1 -1
+      SOFFS 0
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {9BDBBE1A-5057-4AA1-828C-6A12CF8B60DB}
+      <SOURCE VIDEO
+        FILE "Graphics\Airwindows_Channel4\AW_Channel4_Settings_-_SSL_Off.png"
+      >
+    >
+    <ITEM
+      POSITION 398.29841269878955
+      SNAPOFFS 0
+      LENGTH 14.00000000003547
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1.1 0 0 1 0 0
+      FADEOUT 1.1 0 0 1 0 0
+      MUTE 0
+      SEL 0
+      YPOS 0.5 0.166667
+      IGUID {12711CE8-0913-4BFD-AA26-2A854B9B204B}
+      IID 62
+      NAME AW_Channel4_Settings_-_SSL_50.png
+      VOLPAN 1 0 1 -1
+      SOFFS 0
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {D7E343D0-CE2A-488D-B3E5-302C8029AD6C}
+      <SOURCE VIDEO
+        FILE "Graphics\Airwindows_Channel4\AW_Channel4_Settings_-_SSL_50.png"
+      >
+    >
+    <ITEM
+      POSITION 412.29841269882502
+      SNAPOFFS 0
+      LENGTH 14
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1.1 0 0 1 0 0
+      FADEOUT 1 0 0 1 0 0
+      MUTE 0
+      SEL 0
+      YPOS 0.333333 0.166667
+      IGUID {94392A9B-69BE-4D55-B1C2-5B913850151D}
+      IID 63
+      NAME AW_Channel4_Settings_-_SSL_100.png
+      VOLPAN 1 0 1 -1
+      SOFFS 0
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {333BC916-B3A6-4996-BEF0-4B0BC405F542}
+      <SOURCE VIDEO
+        FILE "Graphics\Airwindows_Channel4\AW_Channel4_Settings_-_SSL_100.png"
+      >
+    >
+  >
+  <TRACK {1F41FE7F-9B0C-4CC7-9957-73CD3531F8D9}
+    NAME Linear_Freq_Delta
+    PEAKCOL 16576
+    BEAT -1
+    AUTOMODE 0
+    VOLPAN 1 0 -1 -1 1
+    MUTESOLO 1 0 0
+    IPHASE 0
+    ISBUS 0 0
+    BUSCOMP 0 0 0 0 0
+    SHOWINMIX 1 0.6667 0.5 1 0.5 0 0 0
+    FREEMODE 0
+    SEL 1
+    REC 0 5088 1 7 0 0 0
+    VU 2
+    TRACKHEIGHT 0 0 0
+    INQ 0 0 0 0.5 100 0 0 100
+    NCHAN 2
+    FX 0
+    TRACKID {1F41FE7F-9B0C-4CC7-9957-73CD3531F8D9}
+    PERF 0
+    MIDIOUT -1
+    MAINSEND 1 0
+    <FXCHAIN
+      WNDRECT 193 372 655 408
+      SHOW 0
+      LASTSEL 0
+      DOCKED 0
+      BYPASS 0 0 0
+      <VIDEO_EFFECT "Video processor" ""
+        <CODE
+          |// JT: Essential Video Controls
+          |//@param 1:x_position 'Hozizontal Position' 0.5 -0.5 1.5 
+          |//@param 2:y_position 'Vertical Position' 0.5 -0.5 1.5
+          |//@param 3:size 'Size / Zoom' 1 0 5 1 0.05
+          |//@param 5:crop_L 'Crop Left' 0.0
+          |//@param 6:crop_R 'Crop Right' 0.0
+          |//@param 7:crop_T 'Crop Top' 0.0
+          |//@param 8:crop_B 'Crop Bottom' 0.0
+          |
+          |//@param10:opacity 'Opacity' 1 0 1 0.5 0.01
+          |
+          |img1=0;
+          |img2=input_track(0);
+          |gfx_blit(img2);
+          |
+          |
+          |input_info(img1,iw,ih);
+          |
+          |original_width = iw;
+          |original_height = ih;
+          |
+          |scaled_width = original_width * size;
+          |scaled_height = original_height * size;
+          |
+          |crop_L_amount = crop_L * scaled_width;
+          |crop_R_amount = crop_R * scaled_width;
+          |crop_T_amount = crop_T * scaled_height;
+          |crop_B_amount = crop_B * scaled_height;
+          |
+          |outer_width = scaled_width - crop_L_amount - crop_R_amount;
+          |outer_height = scaled_height - crop_T_amount - crop_B_amount;
+          |
+          |outer_x_position = original_width * x_position + (crop_L_amount / 2) - (crop_R_amount / 2) - (outer_width / 2);
+          |outer_y_position = original_height * y_position + (crop_T_amount / 2) - (crop_B_amount / 2) - (outer_height / 2);
+          |
+          |inner_width = original_width - (crop_L * original_width) - (crop_R * original_width);
+          |inner_height = original_height - (crop_T * original_height) - (crop_B * original_height);
+          |
+          |inner_x_position = crop_L_amount / size;
+          |inner_y_position = crop_T_amount / size;
+          |
+          |gfx_set(bgc,bgc,bgc,opacity);
+          |gfx_fillrect(0, yt, project_w, txth*(1+border*2));
+          |
+          |gfx_mode = 1>0.5 ? 256 : 0; //HQ filter always on
+          |
+          |gfx_blit(img1,1,
+          |   outer_x_position, outer_y_position, (outer_width)|0, (outer_height)|0,
+          |   inner_x_position, inner_y_position, (inner_width)|0, (inner_height)|0
+          |   );
+          |   
+        >
+        CODEPARM 0.2000000000 0.2000000000 0.4000000000 0.0000000000 0.0000000000 0.0000000000 0.0000000000 0.0000000000 1.0000000000 1.0000000000 1.0000000000 0.0000000000 0.0000000000 0.0000000000 0.0000000000 0.0000000000 0.0000000000 0.0000000000 0.0000000000 0.0000000000 0.0000000000 0.0000000000 0.0000000000 0.0000000000
+      >
+      FLOATPOS 0 0 0 0
+      FXID {7AF063D8-0751-417F-BFB0-E8116F13B01B}
+      WAK 0 0
+    >
+    <ITEM
+      POSITION 13.91503401360541
+      SNAPOFFS 0
+      LENGTH 13.91503401360545
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0.01 0 1 0 0
+      FADEOUT 1 0.01 0 1 0 0
+      MUTE 0
+      SEL 0
+      IGUID {274CA464-598B-4E39-B9FB-632FC2680993}
+      IID 94
+      NAME AW_Channel4_-_Linear_Freq_Delta_-_Neve_0.png
+      VOLPAN 1 0 1 -1
+      SOFFS 0
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {37BF5C1E-BA45-4EA4-B5ED-D2DF847C3702}
+      <SOURCE VIDEO
+        FILE "Graphics\Airwindows_Channel4\AW_Channel4_-_Linear_Freq_Delta_-_Neve_0.png"
+      >
+    >
+  >
+  <TRACK {73E08924-1F30-4812-9D41-1C1BE3A6834A}
+    NAME Linear_Freq_Random
+    PEAKCOL 16576
+    BEAT -1
+    AUTOMODE 0
+    VOLPAN 1 0 -1 -1 1
+    MUTESOLO 1 0 0
+    IPHASE 0
+    ISBUS 0 0
+    BUSCOMP 0 0 0 0 0
+    SHOWINMIX 1 0.6667 0.5 1 0.5 0 0 0
+    FREEMODE 0
+    SEL 0
+    REC 0 5088 1 7 0 0 0
+    VU 2
+    TRACKHEIGHT 0 0 0
+    INQ 0 0 0 0.5 100 0 0 100
+    NCHAN 2
+    FX 0
+    TRACKID {73E08924-1F30-4812-9D41-1C1BE3A6834A}
+    PERF 0
+    MIDIOUT -1
+    MAINSEND 1 0
+    <FXCHAIN
+      WNDRECT 676 378 655 408
+      SHOW 0
+      LASTSEL 0
+      DOCKED 0
+      BYPASS 0 0 0
+      <VIDEO_EFFECT "Video processor" ""
+        <CODE
+          |// JT: Essential Video Controls
+          |//@param 1:x_position 'Hozizontal Position' 0.5 -0.5 1.5 
+          |//@param 2:y_position 'Vertical Position' 0.5 -0.5 1.5
+          |//@param 3:size 'Size / Zoom' 1 0 5 1 0.05
+          |//@param 5:crop_L 'Crop Left' 0.0
+          |//@param 6:crop_R 'Crop Right' 0.0
+          |//@param 7:crop_T 'Crop Top' 0.0
+          |//@param 8:crop_B 'Crop Bottom' 0.0
+          |
+          |//@param10:opacity 'Opacity' 1 0 1 0.5 0.01
+          |
+          |img1=0;
+          |img2=input_track(0);
+          |gfx_blit(img2);
+          |
+          |
+          |input_info(img1,iw,ih);
+          |
+          |original_width = iw;
+          |original_height = ih;
+          |
+          |scaled_width = original_width * size;
+          |scaled_height = original_height * size;
+          |
+          |crop_L_amount = crop_L * scaled_width;
+          |crop_R_amount = crop_R * scaled_width;
+          |crop_T_amount = crop_T * scaled_height;
+          |crop_B_amount = crop_B * scaled_height;
+          |
+          |outer_width = scaled_width - crop_L_amount - crop_R_amount;
+          |outer_height = scaled_height - crop_T_amount - crop_B_amount;
+          |
+          |outer_x_position = original_width * x_position + (crop_L_amount / 2) - (crop_R_amount / 2) - (outer_width / 2);
+          |outer_y_position = original_height * y_position + (crop_T_amount / 2) - (crop_B_amount / 2) - (outer_height / 2);
+          |
+          |inner_width = original_width - (crop_L * original_width) - (crop_R * original_width);
+          |inner_height = original_height - (crop_T * original_height) - (crop_B * original_height);
+          |
+          |inner_x_position = crop_L_amount / size;
+          |inner_y_position = crop_T_amount / size;
+          |
+          |gfx_set(bgc,bgc,bgc,opacity);
+          |gfx_fillrect(0, yt, project_w, txth*(1+border*2));
+          |
+          |gfx_mode = 1>0.5 ? 256 : 0; //HQ filter always on
+          |
+          |gfx_blit(img1,1,
+          |   outer_x_position, outer_y_position, (outer_width)|0, (outer_height)|0,
+          |   inner_x_position, inner_y_position, (inner_width)|0, (inner_height)|0
+          |   );
+          |   
+        >
+        CODEPARM 0.6000000000 0.2000000000 0.4000000000 0.0000000000 0.0000000000 0.0000000000 0.0000000000 0.0000000000 1.0000000000 1.0000000000 1.0000000000 0.0000000000 0.0000000000 0.0000000000 0.0000000000 0.0000000000 0.0000000000 0.0000000000 0.0000000000 0.0000000000 0.0000000000 0.0000000000 0.0000000000 0.0000000000
+      >
+      FLOATPOS 0 0 0 0
+      FXID {36CEE260-8460-462A-A460-CA29C4FEBF89}
+      WAK 0 0
+    >
+    <ITEM
+      POSITION 13.91503401360541
+      SNAPOFFS 0
+      LENGTH 13.91503401360545
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0.01 0 1 0 0
+      FADEOUT 1 0.01 0 1 0 0
+      MUTE 0
+      SEL 1
+      IGUID {5D83D335-443B-4B6E-A52E-FCF2F5CD808B}
+      IID 95
+      NAME AW_Channel4_-_Linear_Freq_Random_-_Neve_0.png
+      VOLPAN 1 0 1 -1
+      SOFFS 0
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {122AE76B-ADB3-4286-9321-E91FB9F6126F}
+      <SOURCE VIDEO
+        FILE "Graphics\Airwindows_Channel4\AW_Channel4_-_Linear_Freq_Random_-_Neve_0.png"
+      >
+    >
+  >
+  <TRACK {C79D2236-B87C-4B89-B43D-559A691331B1}
+    NAME Linear_IR_Delta
+    PEAKCOL 16576
+    BEAT -1
+    AUTOMODE 0
+    VOLPAN 1 0 -1 -1 1
+    MUTESOLO 0 0 0
+    IPHASE 0
+    ISBUS 0 0
+    BUSCOMP 0 0 0 0 0
+    SHOWINMIX 1 0.6667 0.5 1 0.5 0 0 0
+    FREEMODE 0
+    SEL 0
+    REC 0 5088 1 7 0 0 0
+    VU 2
+    TRACKHEIGHT 0 0 0
+    INQ 0 0 0 0.5 100 0 0 100
+    NCHAN 2
+    FX 1
+    TRACKID {C79D2236-B87C-4B89-B43D-559A691331B1}
+    PERF 0
+    MIDIOUT -1
+    MAINSEND 1 0
+    <FXCHAIN
+      SHOW 0
+      LASTSEL 1
+      DOCKED 0
+    >
+  >
+  <TRACK {7CF7F47A-258D-422A-A5C7-BF476622F17A}
+    NAME Linear_Phase_Delta
+    PEAKCOL 16576
+    BEAT -1
+    AUTOMODE 0
+    VOLPAN 1 0 -1 -1 1
+    MUTESOLO 0 0 0
+    IPHASE 0
+    ISBUS 0 0
+    BUSCOMP 0 0 0 0 0
+    SHOWINMIX 1 0.6667 0.5 1 0.5 0 0 0
+    FREEMODE 0
+    SEL 0
+    REC 0 5088 1 7 0 0 0
+    VU 2
+    TRACKHEIGHT 0 0 0
+    INQ 0 0 0 0.5 100 0 0 100
+    NCHAN 2
+    FX 1
+    TRACKID {7CF7F47A-258D-422A-A5C7-BF476622F17A}
+    PERF 0
+    MIDIOUT -1
+    MAINSEND 1 0
+    <FXCHAIN
+      SHOW 0
+      LASTSEL 1
+      DOCKED 0
+    >
+  >
+  <TRACK {B4C04047-5B4A-408B-836C-2C029B1D99CB}
+    NAME ""
+    PEAKCOL 16576
+    BEAT -1
+    AUTOMODE 0
+    VOLPAN 1 0 -1 -1 1
+    MUTESOLO 0 0 0
+    IPHASE 0
+    ISBUS 0 0
+    BUSCOMP 0 0 0 0 0
+    SHOWINMIX 1 0.6667 0.5 1 0.5 0 0 0
+    FREEMODE 0
+    SEL 0
+    REC 0 5088 1 7 0 0 0
+    VU 2
+    TRACKHEIGHT 0 0 0
+    INQ 0 0 0 0.5 100 0 0 100
+    NCHAN 2
+    FX 1
+    TRACKID {B4C04047-5B4A-408B-836C-2C029B1D99CB}
+    PERF 0
+    MIDIOUT -1
+    MAINSEND 1 0
+    <FXCHAIN
+      SHOW 0
+      LASTSEL 1
+      DOCKED 0
+    >
+  >
+  <TRACK {8D75CF1D-2B23-44B5-90F4-112EAADC6CEB}
+    NAME Dynamic_Ramp
+    PEAKCOL 16576
+    BEAT -1
+    AUTOMODE 0
+    VOLPAN 1 0 -1 -1 1
+    MUTESOLO 0 0 0
+    IPHASE 0
+    ISBUS 0 0
+    BUSCOMP 0 0 0 0 0
+    SHOWINMIX 1 0.6667 0.5 1 0.5 0 0 0
+    FREEMODE 0
+    SEL 0
+    REC 0 5088 1 7 0 0 0
+    VU 2
+    TRACKHEIGHT 0 0 0
+    INQ 0 0 0 0.5 100 0 0 100
+    NCHAN 2
+    FX 1
+    TRACKID {8D75CF1D-2B23-44B5-90F4-112EAADC6CEB}
+    PERF 0
+    MIDIOUT -1
+    MAINSEND 1 0
+    <FXCHAIN
+      SHOW 0
+      LASTSEL 1
+      DOCKED 0
+    >
+  >
+  <TRACK {77422265-45D2-4C70-BA0C-2EF9A472B251}
+    NAME Dynamic_Att-Rel
+    PEAKCOL 16576
+    BEAT -1
+    AUTOMODE 0
+    VOLPAN 1 0 -1 -1 1
+    MUTESOLO 0 0 0
+    IPHASE 0
+    ISBUS 2 -1
+    BUSCOMP 0 0 0 0 0
+    SHOWINMIX 1 0.6667 0.5 1 0.5 0 0 0
+    FREEMODE 0
+    SEL 0
+    REC 0 5088 1 7 0 0 0
+    VU 2
+    TRACKHEIGHT 0 0 0
+    INQ 0 0 0 0.5 100 0 0 100
+    NCHAN 2
+    FX 1
+    TRACKID {77422265-45D2-4C70-BA0C-2EF9A472B251}
+    PERF 0
+    MIDIOUT -1
+    MAINSEND 1 0
+    <FXCHAIN
+      SHOW 0
+      LASTSEL 1
+      DOCKED 0
+    >
+  >
+  <TRACK {4DD3A8AF-AA3F-4E13-81C4-D8660F7378B6}
+    NAME ADr
+    PEAKCOL 16576
+    BEAT -1
+    AUTOMODE 0
+    VOLPAN 1 0 -1 -1 1
+    MUTESOLO 0 0 0
+    IPHASE 0
+    ISBUS 0 0
+    BUSCOMP 0 0 0 0 0
+    SHOWINMIX 1 0.6667 0.5 1 0.5 0 0 0
+    FREEMODE 0
+    SEL 0
+    REC 0 5088 1 7 0 0 0
+    VU 2
+    TRACKHEIGHT 0 0 0
+    INQ 0 0 0 0.5 100 0 0 100
+    NCHAN 2
+    FX 1
+    TRACKID {4DD3A8AF-AA3F-4E13-81C4-D8660F7378B6}
+    PERF 0
+    MIDIOUT -1
+    MAINSEND 1 0
+    <FXCHAIN
+      SHOW 0
+      LASTSEL 0
+      DOCKED 0
+    >
+    <ITEM
+      POSITION 0
+      SNAPOFFS 0
+      LENGTH 13.91503401360544
+      LOOP 0
+      ALLTAKES 0
+      FADEIN 1 0.01 0 1 0 0
+      FADEOUT 1 0.01 0 1 0 0
+      MUTE 0
+      SEL 0
+      IGUID {3DD41161-A66A-44F7-9A50-0C226D6E37C3}
+      IID 14
+      NAME Airwindows_Channel4_ADr_DRY.wav
+      VOLPAN 1 0 1 -1
+      SOFFS 0
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {734B578C-8A87-4027-8B5F-2E1C44A1DB10}
+      <SOURCE WAVE
+        FILE "Export\Airwindows_Channel4\Airwindows_Channel4_ADr_DRY.wav"
+      >
+    >
+    <ITEM
+      POSITION 13.91503401360544
+      SNAPOFFS 0
+      LENGTH 13.91503401360543
+      LOOP 0
+      ALLTAKES 0
+      FADEIN 1 0.01 0 1 0 0
+      FADEOUT 1 0.01 0 1 0 0
+      MUTE 0
+      SEL 0
+      IGUID {3FA31CAC-B3B0-4E8A-9282-748FEC114AD8}
+      IID 17
+      NAME Airwindows_Channel4_ADr_Neve_Off.wav
+      VOLPAN 1 0 1 -1
+      SOFFS 0
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {B5F0C279-6958-45C8-82E5-2B574BC924C2}
+      <SOURCE WAVE
+        FILE "Export\Airwindows_Channel4\Airwindows_Channel4_ADr_Neve_Off.wav"
+      >
+    >
+    <ITEM
+      POSITION 27.83006802721087
+      SNAPOFFS 0
+      LENGTH 13.91503401360544
+      LOOP 0
+      ALLTAKES 0
+      FADEIN 1 0.01 0 1 0 0
+      FADEOUT 1 0.01 0 1 0 0
+      MUTE 0
+      SEL 0
+      IGUID {1C218D73-3828-40FA-A4D5-695BF9AD1B67}
+      IID 15
+      NAME Airwindows_Channel4_ADr_Neve_50%.wav
+      VOLPAN 1 0 1 -1
+      SOFFS 0
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {5E17BF9A-7F37-46DF-9913-C5681A80CC5D}
+      <SOURCE WAVE
+        FILE "Export\Airwindows_Channel4\Airwindows_Channel4_ADr_Neve_50%.wav"
+      >
+    >
+    <ITEM
+      POSITION 41.74510204081631
+      SNAPOFFS 0
+      LENGTH 13.91503401360546
+      LOOP 0
+      ALLTAKES 0
+      FADEIN 1 0.01 0 1 0 0
+      FADEOUT 1 0.01 0 1 0 0
+      MUTE 0
+      SEL 0
+      IGUID {75889C5F-815E-4AAA-A6D8-B780E9B69F28}
+      IID 16
+      NAME Airwindows_Channel4_ADr_Neve_100%.wav
+      VOLPAN 1 0 1 -1
+      SOFFS 0
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {F5C1A5DE-D1B9-4052-8593-724D673CEB33}
+      <SOURCE WAVE
+        FILE "Export\Airwindows_Channel4\Airwindows_Channel4_ADr_Neve_100%.wav"
+      >
+    >
+    <ITEM
+      POSITION 55.66013605442177
+      SNAPOFFS 0
+      LENGTH 13.91503401360546
+      LOOP 0
+      ALLTAKES 0
+      FADEIN 1 0.01 0 1 0 0
+      FADEOUT 1 0.01 0 1 0 0
+      MUTE 0
+      SEL 0
+      IGUID {857BB6F1-8C53-4C8E-B280-3C2DF0FE3078}
+      IID 13
+      NAME Airwindows_Channel4_ADr_API_Off.wav
+      VOLPAN 1 0 1 -1
+      SOFFS 0
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {73D85547-ECD8-4B6C-8A90-53E6D937208C}
+      <SOURCE WAVE
+        FILE "Export\Airwindows_Channel4\Airwindows_Channel4_ADr_API_Off.wav"
+      >
+    >
+    <ITEM
+      POSITION 69.57517006802723
+      SNAPOFFS 0
+      LENGTH 13.91503401360541
+      LOOP 0
+      ALLTAKES 0
+      FADEIN 1 0.01 0 1 0 0
+      FADEOUT 1 0.01 0 1 0 0
+      MUTE 0
+      SEL 0
+      IGUID {4C5090AB-3A55-482F-ACB5-F65E2AA146A2}
+      IID 11
+      NAME Airwindows_Channel4_ADr_API_50%.wav
+      VOLPAN 1 0 1 -1
+      SOFFS 0
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {25B21475-8FC3-42BB-8ADC-2309C32B5FB1}
+      <SOURCE WAVE
+        FILE "Export\Airwindows_Channel4\Airwindows_Channel4_ADr_API_50%.wav"
+      >
+    >
+    <ITEM
+      POSITION 83.49020408159473
+      SNAPOFFS 0
+      LENGTH 13.91503401360541
+      LOOP 0
+      ALLTAKES 0
+      FADEIN 1 0.01 0 1 0 0
+      FADEOUT 1 0.01 0 1 0 0
+      MUTE 0
+      SEL 0
+      IGUID {73901DAA-504F-48A1-B800-06F7FD6F87AC}
+      IID 12
+      NAME Airwindows_Channel4_ADr_API_100%.wav
+      VOLPAN 1 0 1 -1
+      SOFFS 0
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {75AE6941-DBA6-464F-88C6-850E2004A9F8}
+      <SOURCE WAVE
+        FILE "Export\Airwindows_Channel4\Airwindows_Channel4_ADr_API_100%.wav"
+      >
+    >
+    <ITEM
+      POSITION 97.40523809520013
+      SNAPOFFS 0
+      LENGTH 13.91503401360544
+      LOOP 0
+      ALLTAKES 0
+      FADEIN 1 0.01 0 1 0 0
+      FADEOUT 1 0.01 0 1 0 0
+      MUTE 0
+      SEL 0
+      IGUID {FF044156-E67B-422B-AB72-A7C7C5592DC9}
+      IID 20
+      NAME Airwindows_Channel4_ADr_SSL_Off.wav
+      VOLPAN 1 0 1 -1
+      SOFFS 0
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {27EC8665-30C0-43B9-9808-FFE4971D537A}
+      <SOURCE WAVE
+        FILE "Export\Airwindows_Channel4\Airwindows_Channel4_ADr_SSL_Off.wav"
+      >
+    >
+    <ITEM
+      POSITION 111.32027210880557
+      SNAPOFFS 0
+      LENGTH 13.91503401360544
+      LOOP 0
+      ALLTAKES 0
+      FADEIN 1 0.01 0 1 0 0
+      FADEOUT 1 0.01 0 1 0 0
+      MUTE 0
+      SEL 0
+      IGUID {A8F87EBE-7B47-4DE2-A897-392136C6C876}
+      IID 18
+      NAME Airwindows_Channel4_ADr_SSL_50%.wav
+      VOLPAN 1 0 1 -1
+      SOFFS 0
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {6EF952D3-8FF1-4DC1-B8E5-071E96DCD99A}
+      <SOURCE WAVE
+        FILE "Export\Airwindows_Channel4\Airwindows_Channel4_ADr_SSL_50%.wav"
+      >
+    >
+    <ITEM
+      POSITION 125.23530612248948
+      SNAPOFFS 0
+      LENGTH 13.91503401360538
+      LOOP 0
+      ALLTAKES 0
+      FADEIN 1 0.01 0 1 0 0
+      FADEOUT 1 0.01 0 1 0 0
+      MUTE 0
+      SEL 0
+      IGUID {B03974FF-BFD6-4BBE-B197-F31F19E644AB}
+      IID 19
+      NAME Airwindows_Channel4_ADr_SSL_100%.wav
+      VOLPAN 1 0 1 -1
+      SOFFS 0
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {CACC87CA-6CD1-4032-ABB2-0C38841822B1}
+      <SOURCE WAVE
+        FILE "Export\Airwindows_Channel4\Airwindows_Channel4_ADr_SSL_100%.wav"
+      >
+    >
+  >
+  <TRACK {A1B51689-55B7-4461-996C-C92365E562E3}
+    NAME EDr
+    PEAKCOL 16576
+    BEAT -1
+    AUTOMODE 0
+    VOLPAN 1 0 -1 -1 1
+    MUTESOLO 0 0 0
+    IPHASE 0
+    ISBUS 0 0
+    BUSCOMP 0 0 0 0 0
+    SHOWINMIX 1 0.6667 0.5 1 0.5 0 0 0
+    FREEMODE 0
+    SEL 0
+    REC 0 5088 1 7 0 0 0
+    VU 2
+    TRACKHEIGHT 0 0 0
+    INQ 0 0 0 0.5 100 0 0 100
+    NCHAN 2
+    FX 1
+    TRACKID {A1B51689-55B7-4461-996C-C92365E562E3}
+    PERF 0
+    MIDIOUT -1
+    MAINSEND 1 0
+    <FXCHAIN
+      SHOW 0
+      LASTSEL 0
+      DOCKED 0
+    >
+    <ITEM
+      POSITION 139.15034013609485
+      SNAPOFFS 0
+      LENGTH 14.71480725623587
+      LOOP 0
+      ALLTAKES 0
+      FADEIN 1 0.01 0 1 0 0
+      FADEOUT 1 0.01 0 1 0 0
+      MUTE 0
+      SEL 0
+      IGUID {CBF8AC91-BD4F-477A-ABAF-81243D868B4D}
+      IID 25
+      NAME Airwindows_Channel4_EDr_808_DRY.wav
+      VOLPAN 1 0 1 -1
+      SOFFS 0
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {6352808C-D0FB-4093-8F6D-FB7A60087026}
+      <SOURCE WAVE
+        FILE "Export\Airwindows_Channel4\Airwindows_Channel4_EDr_808_DRY.wav"
+      >
+    >
+    <ITEM
+      POSITION 153.86514739233073
+      SNAPOFFS 0
+      LENGTH 14.71480725623587
+      LOOP 0
+      ALLTAKES 0
+      FADEIN 1 0.01 0 1 0 0
+      FADEOUT 1 0.01 0 1 0 0
+      MUTE 0
+      SEL 0
+      IGUID {17EEC837-0B78-4F6E-B644-35243C5F0E1B}
+      IID 28
+      NAME Airwindows_Channel4_EDr_808_Neve_Off.wav
+      VOLPAN 1 0 1 -1
+      SOFFS 0
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {363BF48D-AC72-4B5B-8A5C-3B6D4362E4CE}
+      <SOURCE WAVE
+        FILE "Export\Airwindows_Channel4\Airwindows_Channel4_EDr_808_Neve_Off.wav"
+      >
+    >
+    <ITEM
+      POSITION 168.5799546485666
+      SNAPOFFS 0
+      LENGTH 14.71480725623582
+      LOOP 0
+      ALLTAKES 0
+      FADEIN 1 0.01 0 1 0 0
+      FADEOUT 1 0.01 0 1 0 0
+      MUTE 0
+      SEL 0
+      IGUID {7D21F60B-6587-40E7-A94C-BE5C119C0232}
+      IID 26
+      NAME Airwindows_Channel4_EDr_808_Neve_50%.wav
+      VOLPAN 1 0 1 -1
+      SOFFS 0
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {3CE8144F-3B65-4771-8737-497C5A34DBDB}
+      <SOURCE WAVE
+        FILE "Export\Airwindows_Channel4\Airwindows_Channel4_EDr_808_Neve_50%.wav"
+      >
+    >
+    <ITEM
+      POSITION 183.29476190480793
+      SNAPOFFS 0
+      LENGTH 14.71480725623582
+      LOOP 0
+      ALLTAKES 0
+      FADEIN 1 0.01 0 1 0 0
+      FADEOUT 1 0.01 0 1 0 0
+      MUTE 0
+      SEL 0
+      IGUID {355AAE6B-8005-4145-939E-9AA7C7147CA0}
+      IID 27
+      NAME Airwindows_Channel4_EDr_808_Neve_100%.wav
+      VOLPAN 1 0 1 -1
+      SOFFS 0
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {D0245F41-B730-4631-97EA-5DBB3CFFC69F}
+      <SOURCE WAVE
+        FILE "Export\Airwindows_Channel4\Airwindows_Channel4_EDr_808_Neve_100%.wav"
+      >
+    >
+    <ITEM
+      POSITION 198.00956916104374
+      SNAPOFFS 0
+      LENGTH 14.71480725623587
+      LOOP 0
+      ALLTAKES 0
+      FADEIN 1 0.01 0 1 0 0
+      FADEOUT 1 0.01 0 1 0 0
+      MUTE 0
+      SEL 0
+      IGUID {07EBB7D9-C3EA-48CC-A6D0-F33448A7D84E}
+      IID 24
+      NAME Airwindows_Channel4_EDr_808_API_Off.wav
+      VOLPAN 1 0 1 -1
+      SOFFS 0
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {4FC8FDF8-43A6-4FCD-B914-2F20549B4189}
+      <SOURCE WAVE
+        FILE "Export\Airwindows_Channel4\Airwindows_Channel4_EDr_808_API_Off.wav"
+      >
+    >
+    <ITEM
+      POSITION 212.72437641727961
+      SNAPOFFS 0
+      LENGTH 14.71480725623579
+      LOOP 0
+      ALLTAKES 0
+      FADEIN 1 0.01 0 1 0 0
+      FADEOUT 1 0.01 0 1 0 0
+      MUTE 0
+      SEL 0
+      IGUID {2B45DECB-BDE0-440C-AE9E-03ECC7B5B573}
+      IID 22
+      NAME Airwindows_Channel4_EDr_808_API_50%.wav
+      VOLPAN 1 0 1 -1
+      SOFFS 0
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {6D5126AB-47CB-45D1-86AC-0C27ECA1B90B}
+      <SOURCE WAVE
+        FILE "Export\Airwindows_Channel4\Airwindows_Channel4_EDr_808_API_50%.wav"
+      >
+    >
+    <ITEM
+      POSITION 227.43918367352094
+      SNAPOFFS 0
+      LENGTH 14.71480725623573
+      LOOP 0
+      ALLTAKES 0
+      FADEIN 1 0.01 0 1 0 0
+      FADEOUT 1 0.01 0 1 0 0
+      MUTE 0
+      SEL 0
+      IGUID {3820FEE2-4B87-4DF7-AF1D-433EB9A4E8A3}
+      IID 23
+      NAME Airwindows_Channel4_EDr_808_API_100%.wav
+      VOLPAN 1 0 1 -1
+      SOFFS 0
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {372A0320-AC7B-4777-95E1-AA43CC590D6E}
+      <SOURCE WAVE
+        FILE "Export\Airwindows_Channel4\Airwindows_Channel4_EDr_808_API_100%.wav"
+      >
+    >
+    <ITEM
+      POSITION 242.15399092975667
+      SNAPOFFS 0
+      LENGTH 14.71480725623599
+      LOOP 0
+      ALLTAKES 0
+      FADEIN 1 0.01 0 1 0 0
+      FADEOUT 1 0.01 0 1 0 0
+      MUTE 0
+      SEL 0
+      IGUID {08064877-97BB-436A-8D8A-2F15BB1CD5DD}
+      IID 31
+      NAME Airwindows_Channel4_EDr_808_SSL_Off.wav
+      VOLPAN 1 0 1 -1
+      SOFFS 0
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {59F1AEC6-13D3-491E-AD8F-C548162EC082}
+      <SOURCE WAVE
+        FILE "Export\Airwindows_Channel4\Airwindows_Channel4_EDr_808_SSL_Off.wav"
+      >
+    >
+    <ITEM
+      POSITION 256.86879818599266
+      SNAPOFFS 0
+      LENGTH 14.71480725623582
+      LOOP 0
+      ALLTAKES 0
+      FADEIN 1 0.01 0 1 0 0
+      FADEOUT 1 0.01 0 1 0 0
+      MUTE 0
+      SEL 0
+      IGUID {9D401A9D-249A-4D74-8288-F237B3A9A442}
+      IID 29
+      NAME Airwindows_Channel4_EDr_808_SSL_50%.wav
+      VOLPAN 1 0 1 -1
+      SOFFS 0
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {3CB1014A-574B-43E4-9E58-468BBC1C8991}
+      <SOURCE WAVE
+        FILE "Export\Airwindows_Channel4\Airwindows_Channel4_EDr_808_SSL_50%.wav"
+      >
+    >
+    <ITEM
+      POSITION 271.58360544223399
+      SNAPOFFS 0
+      LENGTH 14.71480725623582
+      LOOP 0
+      ALLTAKES 0
+      FADEIN 1 0.01 0 1 0 0
+      FADEOUT 1 0.01 0 1 0 0
+      MUTE 0
+      SEL 0
+      IGUID {8C507D13-8228-43C9-A3BA-6CC630567F0F}
+      IID 30
+      NAME Airwindows_Channel4_EDr_808_SSL_100%.wav
+      VOLPAN 1 0 1 -1
+      SOFFS 0
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {299EDCB8-C6B7-4D64-B017-A5411E78B5F8}
+      <SOURCE WAVE
+        FILE "Export\Airwindows_Channel4\Airwindows_Channel4_EDr_808_SSL_100%.wav"
+      >
+    >
+  >
+  <TRACK {B47C8253-A7A9-42B7-95F2-78B2CA808FFE}
+    NAME EGtr_Clean
+    PEAKCOL 23386188
+    BEAT -1
+    AUTOMODE 0
+    VOLPAN 1 0 -1 -1 1
+    MUTESOLO 0 0 0
+    IPHASE 0
+    ISBUS 0 0
+    BUSCOMP 0 0 0 0 0
+    SHOWINMIX 1 0.6667 0.5 1 0.5 0 0 0
+    FREEMODE 0
+    SEL 0
+    REC 0 5088 1 7 0 0 0
+    VU 2
+    TRACKHEIGHT 0 0 0
+    INQ 0 0 0 0.5 100 0 0 100
+    NCHAN 2
+    TRACKIMGFN "guitar_full.png"
+    FX 1
+    TRACKID {B47C8253-A7A9-42B7-95F2-78B2CA808FFE}
+    PERF 0
+    MIDIOUT -1
+    MAINSEND 1 0
+    <FXCHAIN
+      SHOW 0
+      LASTSEL 0
+      DOCKED 0
+    >
+    <ITEM
+      POSITION 286.29841269843746
+      SNAPOFFS 0
+      LENGTH 14
+      LOOP 0
+      ALLTAKES 0
+      FADEIN 1 0.01 0 1 0 0
+      FADEOUT 1 0.01 0 1 0 0
+      MUTE 0
+      SEL 0
+      IGUID {10504552-12E3-4D3B-91E1-D96C58ED43D2}
+      IID 47
+      NAME Airwindows_Channel4_EGtr_Clean_DRY.wav
+      VOLPAN 1 0 1 -1
+      SOFFS 0
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {5570259D-BB67-4EA1-BBF5-9F3EAE1A493C}
+      <SOURCE WAVE
+        FILE "Export\Airwindows_Channel4\Airwindows_Channel4_EGtr_Clean_DRY.wav"
+      >
+    >
+    <ITEM
+      POSITION 300.29841269843746
+      SNAPOFFS 0
+      LENGTH 14
+      LOOP 0
+      ALLTAKES 0
+      FADEIN 1 0.01 0 1 0 0
+      FADEOUT 1 0.01 0 1 0 0
+      MUTE 0
+      SEL 0
+      IGUID {B2B41F2E-4A62-4486-BBE9-3BD13CAAA54E}
+      IID 50
+      NAME Airwindows_Channel4_EGtr_Clean_Neve_Off.wav
+      VOLPAN 1 0 1 -1
+      SOFFS 0
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {D15612A2-B722-49A1-B69B-BEC05587F2FC}
+      <SOURCE WAVE
+        FILE "Export\Airwindows_Channel4\Airwindows_Channel4_EGtr_Clean_Neve_Off.wav"
+      >
+    >
+    <ITEM
+      POSITION 314.29841269843746
+      SNAPOFFS 0
+      LENGTH 14
+      LOOP 0
+      ALLTAKES 0
+      FADEIN 1 0.01 0 1 0 0
+      FADEOUT 1 0.01 0 1 0 0
+      MUTE 0
+      SEL 0
+      IGUID {BFAD96B0-5C76-4116-8CAB-6FD0ECE3FF49}
+      IID 48
+      NAME Airwindows_Channel4_EGtr_Clean_Neve_50%.wav
+      VOLPAN 1 0 1 -1
+      SOFFS 0
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {684C1EF7-8E73-4884-B9E0-768F99BE8421}
+      <SOURCE WAVE
+        FILE "Export\Airwindows_Channel4\Airwindows_Channel4_EGtr_Clean_Neve_50%.wav"
+      >
+    >
+    <ITEM
+      POSITION 328.29841269843746
+      SNAPOFFS 0
+      LENGTH 14
+      LOOP 0
+      ALLTAKES 0
+      FADEIN 1 0.01 0 1 0 0
+      FADEOUT 1 0.01 0 1 0 0
+      MUTE 0
+      SEL 0
+      IGUID {41535622-AF14-4B9D-883D-4546A26CE665}
+      IID 49
+      NAME Airwindows_Channel4_EGtr_Clean_Neve_100%.wav
+      VOLPAN 1 0 1 -1
+      SOFFS 0
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {3AEC820B-7AB4-4501-89B9-2F109C4EBA39}
+      <SOURCE WAVE
+        FILE "Export\Airwindows_Channel4\Airwindows_Channel4_EGtr_Clean_Neve_100%.wav"
+      >
+    >
+    <ITEM
+      POSITION 342.29841269843746
+      SNAPOFFS 0
+      LENGTH 14
+      LOOP 0
+      ALLTAKES 0
+      FADEIN 1 0.01 0 1 0 0
+      FADEOUT 1 0.01 0 1 0 0
+      MUTE 0
+      SEL 0
+      IGUID {9C7EB1B0-4F91-44B7-9829-7384EA83BB62}
+      IID 46
+      NAME Airwindows_Channel4_EGtr_Clean_API_Off.wav
+      VOLPAN 1 0 1 -1
+      SOFFS 0
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {546389FF-9447-418D-BC0D-13FFA71FB172}
+      <SOURCE WAVE
+        FILE "Export\Airwindows_Channel4\Airwindows_Channel4_EGtr_Clean_API_Off.wav"
+      >
+    >
+    <ITEM
+      POSITION 356.29841269843746
+      SNAPOFFS 0
+      LENGTH 14
+      LOOP 0
+      ALLTAKES 0
+      FADEIN 1 0.01 0 1 0 0
+      FADEOUT 1 0.01 0 1 0 0
+      MUTE 0
+      SEL 0
+      IGUID {C199B6DD-5E90-420A-9552-926F12F6B6F3}
+      IID 44
+      NAME Airwindows_Channel4_EGtr_Clean_API_50%.wav
+      VOLPAN 1 0 1 -1
+      SOFFS 0
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {E00D93B6-C936-4CBE-BFE1-7CA7EFF521F6}
+      <SOURCE WAVE
+        FILE "Export\Airwindows_Channel4\Airwindows_Channel4_EGtr_Clean_API_50%.wav"
+      >
+    >
+    <ITEM
+      POSITION 370.29841269843746
+      SNAPOFFS 0
+      LENGTH 14
+      LOOP 0
+      ALLTAKES 0
+      FADEIN 1 0.01 0 1 0 0
+      FADEOUT 1 0.01 0 1 0 0
+      MUTE 0
+      SEL 0
+      IGUID {DBB50681-5217-4677-ADC6-38498660C138}
+      IID 45
+      NAME Airwindows_Channel4_EGtr_Clean_API_100%.wav
+      VOLPAN 1 0 1 -1
+      SOFFS 0
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {5954559B-BB9A-4650-83DE-D304A4B1C4F8}
+      <SOURCE WAVE
+        FILE "Export\Airwindows_Channel4\Airwindows_Channel4_EGtr_Clean_API_100%.wav"
+      >
+    >
+    <ITEM
+      POSITION 384.29841269843746
+      SNAPOFFS 0
+      LENGTH 14
+      LOOP 0
+      ALLTAKES 0
+      FADEIN 1 0.01 0 1 0 0
+      FADEOUT 1 0.01 0 1 0 0
+      MUTE 0
+      SEL 0
+      IGUID {CA3C888E-FAD5-4027-8687-6DF7E09F1A1B}
+      IID 53
+      NAME Airwindows_Channel4_EGtr_Clean_SSL_Off.wav
+      VOLPAN 1 0 1 -1
+      SOFFS 0
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {4404F329-D21A-4460-8902-5E4E9E8178E0}
+      <SOURCE WAVE
+        FILE "Export\Airwindows_Channel4\Airwindows_Channel4_EGtr_Clean_SSL_Off.wav"
+      >
+    >
+    <ITEM
+      POSITION 398.29841269843746
+      SNAPOFFS 0
+      LENGTH 14
+      LOOP 0
+      ALLTAKES 0
+      FADEIN 1 0.01 0 1 0 0
+      FADEOUT 1 0.01 0 1 0 0
+      MUTE 0
+      SEL 0
+      IGUID {F34F28CA-7FBC-47FD-B8DD-64988DF05148}
+      IID 51
+      NAME Airwindows_Channel4_EGtr_Clean_SSL_50%.wav
+      VOLPAN 1 0 1 -1
+      SOFFS 0
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {38C53B76-8C75-4FAC-A8F0-FBD31676D669}
+      <SOURCE WAVE
+        FILE "Export\Airwindows_Channel4\Airwindows_Channel4_EGtr_Clean_SSL_50%.wav"
+      >
+    >
+    <ITEM
+      POSITION 412.29841269843746
+      SNAPOFFS 0
+      LENGTH 14
+      LOOP 0
+      ALLTAKES 0
+      FADEIN 1 0.01 0 1 0 0
+      FADEOUT 1 0.01 0 1 0 0
+      MUTE 0
+      SEL 0
+      IGUID {DF5090D1-C798-4868-B5A5-AD922A9EAEC1}
+      IID 52
+      NAME Airwindows_Channel4_EGtr_Clean_SSL_100%.wav
+      VOLPAN 1 0 1 -1
+      SOFFS 0
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {B384AE65-559D-43AC-8385-9B48708BD297}
+      <SOURCE WAVE
+        FILE "Export\Airwindows_Channel4\Airwindows_Channel4_EGtr_Clean_SSL_100%.wav"
+      >
+    >
+  >
+  <EXTENSIONS
+    <SWSAUTOCOLOR
+      {00000000-0000-0000-0000-000000000000} 0 "" "" ""
+      {B3FDEA59-FD7E-45FC-9F87-A522BA5E9C39} 0 "" "" ""
+      {4DD3A8AF-AA3F-4E13-81C4-D8660F7378B6} 0 "" "" ""
+      {A1B51689-55B7-4461-996C-C92365E562E3} 0 "" "" ""
+      {B47C8253-A7A9-42B7-95F2-78B2CA808FFE} 23386188 "guitar_full.png" "" ""
+      {B690BE52-3BCD-49FA-9404-E63E538366E4} 0 "" "" ""
+      {1F41FE7F-9B0C-4CC7-9957-73CD3531F8D9} 0 "" "" ""
+      {73E08924-1F30-4812-9D41-1C1BE3A6834A} 0 "" "" ""
+      {C79D2236-B87C-4B89-B43D-559A691331B1} 0 "" "" ""
+      {7CF7F47A-258D-422A-A5C7-BF476622F17A} 0 "" "" ""
+      {B4C04047-5B4A-408B-836C-2C029B1D99CB} 0 "" "" ""
+      {8D75CF1D-2B23-44B5-90F4-112EAADC6CEB} 0 "" "" ""
+      {77422265-45D2-4C70-BA0C-2EF9A472B251} 0 "" "" ""
+    >
+  >
+>
